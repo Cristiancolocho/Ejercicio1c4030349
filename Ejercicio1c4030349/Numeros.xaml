@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1c4030349.Numeros"
+             Title="Numeros">
+    
+        
+
+    <VerticalStackLayout>
+        <Label 
+            Text="Hey!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry x:Name="entry1" Placeholder="Introduce un numero"/>
+        <Entry x:Name="entry2" Placeholder="Introduce un numero"/>
+        <Entry x:Name="entry3" Placeholder="Introduce un numero"/>
+        <Entry x:Name="entry4" Placeholder="Introduce un numero"/>
+        <Entry x:Name="entryr" Placeholder="Resultado"/>
+
+        <Button Text="Ir" Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
